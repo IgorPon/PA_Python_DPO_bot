@@ -1,8 +1,8 @@
 """Модуль запуска телеграмм бота."""
 
-from telebot import custom_filters, types
+from telebot import custom_filters
 
-import handlers
+# import handlers
 from loader import bot
 from utils.set_bot_commands import set_default_commands
 
